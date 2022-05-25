@@ -1,0 +1,42 @@
+.custom-button {
+  min-width: 170px;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-left: 10px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn-clear-all-filter {
+  background-color: #808080;
+}
+
+.btn-edit-column {
+  background-color: #0d50a4;
+}
+
+.btn-import-file {
+  background-color: #008815;
+}
+
+.btn-export-file {
+  background-color: #fe4543;
+}
+
+.btn-create-product {
+  background-color: #fbbc05;
+}
+
+.btn-update {
+  background-color: #008816;
+}
+
+.btn-delete {
+  background-color: #fe4543;
+}

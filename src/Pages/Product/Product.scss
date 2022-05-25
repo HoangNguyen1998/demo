@@ -1,0 +1,108 @@
+.product-page {
+  padding: 10px;
+
+  .top-action-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+
+      color: #000000;
+    }
+    .action-area {
+      display: flex;
+    }
+  }
+
+  .product-filter-area {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .filter-item {
+      display: flex;
+      flex-direction: column;
+      .search-item {
+        display: flex;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        border-radius: 30px;
+        overflow: hidden;
+
+        .ant-select-selector {
+          border: none !important;
+          border-right: 1px solid rgba(128, 128, 128, 0.5) !important;
+          border-radius: 0px !important;
+        }
+
+        .ant-input {
+          border: none;
+        }
+        .ant-input-affix-wrapper {
+          border: none !important;
+        }
+      }
+
+      .filter-name {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+      }
+
+      .ant-select {
+        width: 100%;
+      }
+      .ant-select-selector {
+        border-radius: 30px;
+      }
+
+      .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+        border-color: rgba(128, 128, 128, 0.5);
+        //   box-shadow: 0 0 0 2px rgba(128, 128, 128, 0.5);
+        outline: none;
+      }
+
+      .ant-select-focused:not(.ant-select-disabled) .ant-select-selector {
+        //   box-shadow: 0 0 0 2px rgba(128, 128, 128, 0.5);
+        box-shadow: none;
+      }
+      .ant-select-selector:not(:hover) {
+        border-color: rgba(128, 128, 128, 0.5) !important;
+      }
+    }
+    .search-item-width {
+      flex-basis: 30%;
+
+      .ant-select.ant-select-single.ant-select-show-arrow.ant-select-show-search {
+        width: 40% !important;
+      }
+    }
+    .filter-item-width {
+      flex-basis: 15%;
+    }
+  }
+
+
+}
+
+.ant-select-dropdown {
+  background: #ffffff;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 10px !important;
+}
+
+
+.text-align-center {
+    text-align: center;
+}
